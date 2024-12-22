@@ -2,7 +2,7 @@ import { blackImg, blueImg, highlightFirstVideo, highlightFourthVideo, highlight
 
 export const navLists = ['Store', 'Mac', 'iPhone', 'Support'];
 
-export const hightlightsSlides = [
+export const highlightsSlides = [
   {
     id: 1,
     textLists: ['Enter A17 Pro.', 'Game‑changing chip.', 'Groundbreaking performance.'],
