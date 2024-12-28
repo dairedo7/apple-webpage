@@ -1,3 +1,4 @@
+import { sentryVitePlugin } from "@sentry/vite-plugin";
 import { defineConfig } from 'vite';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -7,10 +8,18 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), sentryVitePlugin({
+    org: "modvise",
+    project: "javascript-react"
+  })],
+
   resolve: {
     alias: {
       '@assets': path.resolve(__dirname, 'src/assets'),
     },
   },
+
+  build: {
+    sourcemap: true
+  }
 });

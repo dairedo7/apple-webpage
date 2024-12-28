@@ -2,7 +2,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import React, { useRef, useState } from 'react';
 import ModelView from './ModelView';
-import { animateWithGsapTimeline, animateWithGsap } from '../utils/animations';
+import { animateWithGsapTimeline } from '../utils/animations';
 import { yellowImg } from '../utils';
 
 import * as THREE from 'three';
