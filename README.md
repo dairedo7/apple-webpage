@@ -1,8 +1,16 @@
-# React + Vite
+# 🍎 iPhone 15 Pro Web Experience (Recreation)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A faithful recreation of the **Apple iPhone 15 Pro** website, blending **GSAP** for smooth, seamless animations with **Three.js** for stunning 3D product visualization. This project replicates the immersive design and interactions found on Apple's official page, featuring custom scroll-driven animations, dynamic 3D models, and engaging transitions.  
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack  
+- **GSAP** – High-performance animations  
+- **Three.js** – Realistic 3D rendering  
+- **Vite** – Fast build and development  
+- **Tailwind CSS** – Responsive and minimalistic styling  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Features  
+- 3D iPhone model animations  
+- Scroll-triggered effects  
+- Fully responsive layout  
+
+A front-end playground for those passionate about web animations and 3D experiences!
